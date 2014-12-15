@@ -1,0 +1,33 @@
+# Dependencies
+markdown:            kramdown
+highlighter:         pygments
+
+kramdown:
+  input:             GFM
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               Vlang
+tagline:             'Verification for Nerds'
+description:         'This blog focusses on Vlang, the next generation Verification Language.'
+url:                 http://localhost:4040
+baseurl:             /
+paginate:            5
+
+# About/contact
+author:
+  name:              "Puneet Goel"
+  url:               http://coverify.com
+  email:             puneet@coverify.com
+
+# Site
+github:
+  repo: https://github.com/coverify/vlang-blog
+
+# Custom vars
+version:             1.0.0
